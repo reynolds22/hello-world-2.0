@@ -2,9 +2,72 @@ body {
     background: #fff;
     font-family: Arial, Helvetica, sans-serif;
     border-top: 15px solid #424242;
-    margin: 0px;
+    margin: 0px auto;
+    color: #424242;
+}
+
+main {
+    margin: 0px auto;
+    width: 800px;
 }
 
 img {
     width: 100%;
+}
+
+.details {
+    display: flex;
+    gap: 25px;
+}
+
+.details section {
+    flex-grow: 1;
+    flex-basis: 0;
+    background: #E9EAEC;
+    border-radius: 20px;
+    margin-top: 25px;
+}
+
+h2 {
+    margin: 0 0 10px 0;
+}
+
+p {
+    margin: 0px;
+    line-height: 1.4em;
+}
+
+.masthead {
+    background: no-repeat bottom / cover url("./mac.jpg");
+    height: 200px;
+    border-radius: 20px;
+}
+
+h1 {
+    background-image: url("Logo.png");
+    background-repeat: no-repeat;
+    font-size: 3em;
+    background-size: 40px;
+    padding-left: 50px;
+    background-position: center left;
+}
+
+.details section.with-code {
+    padding: 0px;
+}
+
+div.code-html {
+    padding: 25px;
+    background: #424242;
+    color: #fff;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.details section p {
+    margin: 20px;
+}
+
+.details section h2 {
+    margin: 20px;
 }
